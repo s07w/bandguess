@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en-us">
+	<head>
+		<meta charset="UTF-8">
+        <title>Favorite band?</title>
+        <style>
+            body {
+                background-image: url("https://www.musicnotes.com/now/wp-content/uploads/Meme-Headache-1-and-3-Facebook-1.png");
+                background-repeat: no-repeat;
+                background-position: top;
+                        }
+        </style>
+	</head>
+
+    <body>
+
+        	<script>
+
+			var bands = ["jawbreaker", "husker du", "nomeansno", "minutemen"]
+			
+			var guess = prompt("What's your favorite band? Choose wisely...")
+
+			var guessLowercase = guess.toLowerCase();
+
+			if (bands.indexOf(guessLowercase) === -1) {
+				alert("Bzzzzt! Thanks for playing.");
+			}
+
+			else {
+				alert("Nice! I love that band!");
+			}
+
+        </script>
+        
+
+	</body>
+</html>
